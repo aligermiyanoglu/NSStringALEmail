@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/NSString-ALEmail.svg?style=flat)](http://cocoapods.org/pods/NSString-ALEmail)
 [![License](https://img.shields.io/cocoapods/l/NSString-ALEmail.svg?style=flat)](http://cocoapods.org/pods/NSString-ALEmail)
 [![Platform](https://img.shields.io/cocoapods/p/NSString-ALEmail.svg?style=flat)](http://cocoapods.org/pods/NSString-ALEmail)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Example
 
@@ -19,6 +20,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "NSString-ALEmail"
 ```
+## Installation
+------------
+
+- **For iOS 8+ projects with [CocoaPods](https://cocoapods.org):**
+
+```ruby
+pod 'NSString-ALEmail'
+```
+
+- **For iOS 8+ projects with [Carthage](https://github.com/Carthage/Carthage):**
+
+```
+github "aligermiyanoglu/NSStringALEmail"
+```
+
 
 ## Author
 
