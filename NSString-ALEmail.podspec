@@ -32,7 +32,7 @@ Simple pod which combines following work:
   s.homepage         = 'https://github.com/aligermiyanoglu/NSString-ALEmail'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'aligermiyanoglu' => 'aligermiyanoglu@gmail.com' }
+  s.author           = { 'aligermiyanoglu' => 'anibal23736@hotmail.com' }
   s.source           = { :git => 'https://github.com/aligermiyanoglu/NSString-ALEmail.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
