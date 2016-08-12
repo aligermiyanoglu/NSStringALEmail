@@ -1,1389 +1,648 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0385206A1513B0F7CB838CE1C2D0BFE8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9BA86A5DBCB1AC64EA6D25A329EB6B80</string>
-			<key>remoteInfo</key>
-			<string>NSStringALEmail-NSStringALEmail</string>
-		</dict>
-		<key>05BA9115246F1FB4BB1781C01208F958</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSStringALEmail-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0677B5A49C1D07684237F48658A8E88F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>NSStringALEmail.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0860014FDEF41AFA51F6DA806F85D06E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B8F31334BF1890C265600DDD5B10C52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSStringALEmail-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>122FC27C326D31787F661D0EB4BB62EA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B94ED044BA086ABFCFB7FAA460AF2243</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1339BCCDCCFDAE76A2A0049D89BD6889</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A32355A6D3343699DAC39469A469DD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA8716927327D78E25DCBBB17524259C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D4372349F93A3645BD7A5C8B3255472</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NSStringALEmail.bundle</string>
-			<key>path</key>
-			<string>NSStringALEmail.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>28F144B566EC1BA5E7CA366FE7CDA397</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DA8716927327D78E25DCBBB17524259C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BACCCF480014DDD125DF11834C515C7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>NSStringALEmail-NSStringALEmail</string>
-			<key>target</key>
-			<string>9BA86A5DBCB1AC64EA6D25A329EB6B80</string>
-			<key>targetProxy</key>
-			<string>0385206A1513B0F7CB838CE1C2D0BFE8</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EBCFBDDE3B355BA9AE890E54397595C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D4372349F93A3645BD7A5C8B3255472</string>
-				<string>F61471D079A2834A0994162406D12BE0</string>
-				<string>3EF59AA2A7490ABF2B3B8610BC1D2044</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30776464D9C813C0979C83C8C4BDFD90</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D3109AA0BB8B304123739E9EA92E98E</string>
-				<string>B4027E1BFCD4C667A9B045B2B007EF1F</string>
-				<string>0677B5A49C1D07684237F48658A8E88F</string>
-				<string>0B8F31334BF1890C265600DDD5B10C52</string>
-				<string>05BA9115246F1FB4BB1781C01208F958</string>
-				<string>F9EB9E0BD9552065A2D9D7FA0FB8828B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/NSStringALEmail</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>356563349A95748B44A9809E2343388E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1339BCCDCCFDAE76A2A0049D89BD6889</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3B549CEEC0CFABB31CBBBE85B67BBE90</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93D82F01D49D686677545E092FE29CB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Assets</string>
-			<key>path</key>
-			<string>Assets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D3109AA0BB8B304123739E9EA92E98E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3EF59AA2A7490ABF2B3B8610BC1D2044</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_NSStringALEmail_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_NSStringALEmail_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>436AEA3910B6D16386A53E2E1E2D39EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3D0F5BB83094D54C438CD646084ECC3</string>
-				<string>F08EB65B8AF87561BBB690783DF9AA04</string>
-				<string>F8F22815F11D54F8400CFD0BAE1236AE</string>
-				<string>BC7CAC76077D47C1BE40753935619520</string>
-				<string>ED75CB46399770FF2EFF1CB93B77623C</string>
-				<string>8CA8F0A9CD49987F34D406AA4E978247</string>
-				<string>F8C8BF3E5E615E1370CE5BB4FF4D5510</string>
-				<string>1339BCCDCCFDAE76A2A0049D89BD6889</string>
-				<string>F5C85518744D21FFC4B7F5A078394C8A</string>
-				<string>0860014FDEF41AFA51F6DA806F85D06E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-NSStringALEmail_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-NSStringALEmail_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A5C20E1E2AF56E4D645F841AF5F2519</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CEAEB5CDCFACC399AB0F6367116DDE3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4F2736A6112D2095CADACD863BF8D1DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BB171D2DF6F46D0D0D4394C5E8FB2064</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>53FBE36029B9A640AC9194F0DC8E3C27</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>356563349A95748B44A9809E2343388E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5A59A62B491FA749EFC29557E6ABAA9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8E5221C2C98B04916C643BCEA25DBEDB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5AA3F45988547E3E26A20EF777D101FC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0677B5A49C1D07684237F48658A8E88F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>NSStringALEmail</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6E30A7055FD83BCFED3353BC1F732F02</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>81E2FEB6BBAF951B44B04290E1F0DFFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>774B5C8910EABFF9523502933A67E927</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5BD9DDDDEF9BDB09BA6161F9AE636C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D15E71013801828E58E0995DB3C7F73</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D233119C77CE3144285E657DCC75D902</string>
-			<key>remoteInfo</key>
-			<string>NSStringALEmail</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>C5FFDA325824A2CAF1A26EF251E675FB</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>2EBCFBDDE3B355BA9AE890E54397595C</string>
-				<string>D5007FEE57B4C5522649F44F18F93EEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81E2FEB6BBAF951B44B04290E1F0DFFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9EB9E0BD9552065A2D9D7FA0FB8828B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>88910F4D63BF845C0BD5F2D6C7F81215</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>NSStringALEmail</string>
-			<key>target</key>
-			<string>D233119C77CE3144285E657DCC75D902</string>
-			<key>targetProxy</key>
-			<string>7D15E71013801828E58E0995DB3C7F73</string>
-		</dict>
-		<key>8CA8F0A9CD49987F34D406AA4E978247</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E5221C2C98B04916C643BCEA25DBEDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ED75CB46399770FF2EFF1CB93B77623C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>916B1B6849804AE4437D7860E69360F9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0677B5A49C1D07684237F48658A8E88F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>NSStringALEmail</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>933D3D26F427F787FD573B3D7551D184</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F5C85518744D21FFC4B7F5A078394C8A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NSStringALEmail_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NSStringALEmail_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>93D82F01D49D686677545E092FE29CB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>json-disposable-emails.txt</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B090F5DC544AD81AAADED2B9A645535</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>933D3D26F427F787FD573B3D7551D184</string>
-				<string>FA0F887C13149CBE469F6F2C44A523B7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9BA86A5DBCB1AC64EA6D25A329EB6B80</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E149BF9B6D816AE13B94F069B3A63DC0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9F2CE2D198B840CA680227BB94709FE9</string>
-				<string>D1ACD37585F52DA444D031EE09C72E81</string>
-				<string>4F2736A6112D2095CADACD863BF8D1DA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NSStringALEmail-NSStringALEmail</string>
-			<key>productName</key>
-			<string>NSStringALEmail-NSStringALEmail</string>
-			<key>productReference</key>
-			<string>1D4372349F93A3645BD7A5C8B3255472</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>9F2CE2D198B840CA680227BB94709FE9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A5F6AEB7A82F07BF4D303E2550AC1A09</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9B090F5DC544AD81AAADED2B9A645535</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5A59A62B491FA749EFC29557E6ABAA9E</string>
-				<string>4A5C20E1E2AF56E4D645F841AF5F2519</string>
-				<string>53FBE36029B9A640AC9194F0DC8E3C27</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>88910F4D63BF845C0BD5F2D6C7F81215</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-NSStringALEmail_Tests</string>
-			<key>productName</key>
-			<string>Pods-NSStringALEmail_Tests</string>
-			<key>productReference</key>
-			<string>3EF59AA2A7490ABF2B3B8610BC1D2044</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>B1B4464044462AF72D6705EBC34D3D13</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1A32355A6D3343699DAC39469A469DD6</string>
-				<string>D47D27B813BCD9FF0B4C8ED69292E379</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B4027E1BFCD4C667A9B045B2B007EF1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NSStringALEmail.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5344F75CF4FE4E37B1DB91778226F02</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0677B5A49C1D07684237F48658A8E88F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/NSStringALEmail/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/NSStringALEmail/NSStringALEmail.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>NSStringALEmail</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B5BD9DDDDEF9BDB09BA6161F9AE636C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B549CEEC0CFABB31CBBBE85B67BBE90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSStringALEmail</string>
-			<key>path</key>
-			<string>NSStringALEmail</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6EB05A7C1904C346754B7A86B468887</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0677B5A49C1D07684237F48658A8E88F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/NSStringALEmail/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/NSStringALEmail/NSStringALEmail.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>NSStringALEmail</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B94ED044BA086ABFCFB7FAA460AF2243</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D4372349F93A3645BD7A5C8B3255472</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB171D2DF6F46D0D0D4394C5E8FB2064</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93D82F01D49D686677545E092FE29CB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC7CAC76077D47C1BE40753935619520</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5FFDA325824A2CAF1A26EF251E675FB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E3953CF6EA511E91266943649F4FB57C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEAEB5CDCFACC399AB0F6367116DDE3B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1ACD37585F52DA444D031EE09C72E81</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D233119C77CE3144285E657DCC75D902</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F3D6DB83D71B3153824CCC90A1A17251</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B1B4464044462AF72D6705EBC34D3D13</string>
-				<string>EC44D53AB714F70ECB3BD1D2A7D8D572</string>
-				<string>122FC27C326D31787F661D0EB4BB62EA</string>
-				<string>6E30A7055FD83BCFED3353BC1F732F02</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2BACCCF480014DDD125DF11834C515C7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NSStringALEmail</string>
-			<key>productName</key>
-			<string>NSStringALEmail</string>
-			<key>productReference</key>
-			<string>F61471D079A2834A0994162406D12BE0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>D3D0F5BB83094D54C438CD646084ECC3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41A6C1A83E0DA51DBBB117CB9C4F4A4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>28F144B566EC1BA5E7CA366FE7CDA397</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSStringALEmail</string>
-			<key>path</key>
-			<string>NSStringALEmail</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>2EBCFBDDE3B355BA9AE890E54397595C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D233119C77CE3144285E657DCC75D902</string>
-				<string>9BA86A5DBCB1AC64EA6D25A329EB6B80</string>
-				<string>A5F6AEB7A82F07BF4D303E2550AC1A09</string>
-			</array>
-		</dict>
-		<key>D47D27B813BCD9FF0B4C8ED69292E379</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B8F31334BF1890C265600DDD5B10C52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5007FEE57B4C5522649F44F18F93EEE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>436AEA3910B6D16386A53E2E1E2D39EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA8716927327D78E25DCBBB17524259C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>NSString+ALEmail.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E149BF9B6D816AE13B94F069B3A63DC0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>916B1B6849804AE4437D7860E69360F9</string>
-				<string>5AA3F45988547E3E26A20EF777D101FC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E3953CF6EA511E91266943649F4FB57C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D41A6C1A83E0DA51DBBB117CB9C4F4A4</string>
-				<string>774B5C8910EABFF9523502933A67E927</string>
-				<string>30776464D9C813C0979C83C8C4BDFD90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSStringALEmail</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC44D53AB714F70ECB3BD1D2A7D8D572</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F8AFF2DD79DAD41C1FA4AF6F560D3032</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ED75CB46399770FF2EFF1CB93B77623C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F08EB65B8AF87561BBB690783DF9AA04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3D6DB83D71B3153824CCC90A1A17251</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B6EB05A7C1904C346754B7A86B468887</string>
-				<string>B5344F75CF4FE4E37B1DB91778226F02</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F5C85518744D21FFC4B7F5A078394C8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F61471D079A2834A0994162406D12BE0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NSStringALEmail.framework</string>
-			<key>path</key>
-			<string>NSStringALEmail.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F8AFF2DD79DAD41C1FA4AF6F560D3032</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8C8BF3E5E615E1370CE5BB4FF4D5510</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8F22815F11D54F8400CFD0BAE1236AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-NSStringALEmail_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9EB9E0BD9552065A2D9D7FA0FB8828B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSStringALEmail-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA0F887C13149CBE469F6F2C44A523B7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0860014FDEF41AFA51F6DA806F85D06E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NSStringALEmail_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NSStringALEmail_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A32355A6D3343699DAC39469A469DD6 /* NSString+ALEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */; };
+		356563349A95748B44A9809E2343388E /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E2FEB6BBAF951B44B04290E1F0DFFD /* NSStringALEmail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5221C2C98B04916C643BCEA25DBEDB /* Pods-NSStringALEmail_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */; };
+		B94ED044BA086ABFCFB7FAA460AF2243 /* NSStringALEmail.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */; };
+		BB171D2DF6F46D0D0D4394C5E8FB2064 /* json-disposable-emails.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */; };
+		CEAEB5CDCFACC399AB0F6367116DDE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D47D27B813BCD9FF0B4C8ED69292E379 /* NSStringALEmail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */; };
+		F8AFF2DD79DAD41C1FA4AF6F560D3032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0385206A1513B0F7CB838CE1C2D0BFE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA86A5DBCB1AC64EA6D25A329EB6B80;
+			remoteInfo = "NSStringALEmail-NSStringALEmail";
+		};
+		7D15E71013801828E58E0995DB3C7F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D233119C77CE3144285E657DCC75D902;
+			remoteInfo = NSStringALEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BA9115246F1FB4BB1781C01208F958 /* NSStringALEmail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-prefix.pch"; sourceTree = "<group>"; };
+		0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSStringALEmail.xcconfig; sourceTree = "<group>"; };
+		0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSStringALEmail_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSStringALEmail-dummy.m"; sourceTree = "<group>"; };
+		1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSStringALEmail_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSStringALEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3109AA0BB8B304123739E9EA92E98E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSStringALEmail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA8F0A9CD49987F34D406AA4E978247 /* Pods-NSStringALEmail_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSStringALEmail_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "json-disposable-emails.txt"; sourceTree = "<group>"; };
+		B4027E1BFCD4C667A9B045B2B007EF1F /* NSStringALEmail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NSStringALEmail.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC7CAC76077D47C1BE40753935619520 /* Pods-NSStringALEmail_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSStringALEmail_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3D0F5BB83094D54C438CD646084ECC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSString+ALEmail.swift"; sourceTree = "<group>"; };
+		ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSStringALEmail_Tests-dummy.m"; sourceTree = "<group>"; };
+		F08EB65B8AF87561BBB690783DF9AA04 /* Pods-NSStringALEmail_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NSStringALEmail_Tests.modulemap"; sourceTree = "<group>"; };
+		F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSStringALEmail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSStringALEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8BF3E5E615E1370CE5BB4FF4D5510 /* Pods-NSStringALEmail_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSStringALEmail_Tests-resources.sh"; sourceTree = "<group>"; };
+		F8F22815F11D54F8400CFD0BAE1236AE /* Pods-NSStringALEmail_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSStringALEmail_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5C20E1E2AF56E4D645F841AF5F2519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAEB5CDCFACC399AB0F6367116DDE3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ACD37585F52DA444D031EE09C72E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC44D53AB714F70ECB3BD1D2A7D8D572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AFF2DD79DAD41C1FA4AF6F560D3032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F144B566EC1BA5E7CA366FE7CDA397 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EBCFBDDE3B355BA9AE890E54397595C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */,
+				F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */,
+				3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30776464D9C813C0979C83C8C4BDFD90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3109AA0BB8B304123739E9EA92E98E /* Info.plist */,
+				B4027E1BFCD4C667A9B045B2B007EF1F /* NSStringALEmail.modulemap */,
+				0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */,
+				0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */,
+				05BA9115246F1FB4BB1781C01208F958 /* NSStringALEmail-prefix.pch */,
+				F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSStringALEmail";
+			sourceTree = "<group>";
+		};
+		3B549CEEC0CFABB31CBBBE85B67BBE90 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		436AEA3910B6D16386A53E2E1E2D39EE /* Pods-NSStringALEmail_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0F5BB83094D54C438CD646084ECC3 /* Info.plist */,
+				F08EB65B8AF87561BBB690783DF9AA04 /* Pods-NSStringALEmail_Tests.modulemap */,
+				F8F22815F11D54F8400CFD0BAE1236AE /* Pods-NSStringALEmail_Tests-acknowledgements.markdown */,
+				BC7CAC76077D47C1BE40753935619520 /* Pods-NSStringALEmail_Tests-acknowledgements.plist */,
+				ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */,
+				8CA8F0A9CD49987F34D406AA4E978247 /* Pods-NSStringALEmail_Tests-frameworks.sh */,
+				F8C8BF3E5E615E1370CE5BB4FF4D5510 /* Pods-NSStringALEmail_Tests-resources.sh */,
+				1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */,
+				F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */,
+				0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSStringALEmail_Tests";
+			path = "Target Support Files/Pods-NSStringALEmail_Tests";
+			sourceTree = "<group>";
+		};
+		774B5C8910EABFF9523502933A67E927 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD9DDDDEF9BDB09BA6161F9AE636C8 /* NSStringALEmail */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C5FFDA325824A2CAF1A26EF251E675FB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2EBCFBDDE3B355BA9AE890E54397595C /* Products */,
+				D5007FEE57B4C5522649F44F18F93EEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5BD9DDDDEF9BDB09BA6161F9AE636C8 /* NSStringALEmail */ = {
+			isa = PBXGroup;
+			children = (
+				3B549CEEC0CFABB31CBBBE85B67BBE90 /* Assets */,
+			);
+			path = NSStringALEmail;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5FFDA325824A2CAF1A26EF251E675FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3953CF6EA511E91266943649F4FB57C /* NSStringALEmail */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D41A6C1A83E0DA51DBBB117CB9C4F4A4 /* NSStringALEmail */ = {
+			isa = PBXGroup;
+			children = (
+				28F144B566EC1BA5E7CA366FE7CDA397 /* Classes */,
+			);
+			path = NSStringALEmail;
+			sourceTree = "<group>";
+		};
+		D5007FEE57B4C5522649F44F18F93EEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				436AEA3910B6D16386A53E2E1E2D39EE /* Pods-NSStringALEmail_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3953CF6EA511E91266943649F4FB57C /* NSStringALEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D41A6C1A83E0DA51DBBB117CB9C4F4A4 /* NSStringALEmail */,
+				774B5C8910EABFF9523502933A67E927 /* Resources */,
+				30776464D9C813C0979C83C8C4BDFD90 /* Support Files */,
+			);
+			name = NSStringALEmail;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53FBE36029B9A640AC9194F0DC8E3C27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356563349A95748B44A9809E2343388E /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E30A7055FD83BCFED3353BC1F732F02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2FEB6BBAF951B44B04290E1F0DFFD /* NSStringALEmail-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E149BF9B6D816AE13B94F069B3A63DC0 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */;
+			buildPhases = (
+				9F2CE2D198B840CA680227BB94709FE9 /* Sources */,
+				D1ACD37585F52DA444D031EE09C72E81 /* Frameworks */,
+				4F2736A6112D2095CADACD863BF8D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSStringALEmail-NSStringALEmail";
+			productName = "NSStringALEmail-NSStringALEmail";
+			productReference = 1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A5F6AEB7A82F07BF4D303E2550AC1A09 /* Pods-NSStringALEmail_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B090F5DC544AD81AAADED2B9A645535 /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */;
+			buildPhases = (
+				5A59A62B491FA749EFC29557E6ABAA9E /* Sources */,
+				4A5C20E1E2AF56E4D645F841AF5F2519 /* Frameworks */,
+				53FBE36029B9A640AC9194F0DC8E3C27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88910F4D63BF845C0BD5F2D6C7F81215 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSStringALEmail_Tests";
+			productName = "Pods-NSStringALEmail_Tests";
+			productReference = 3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D6DB83D71B3153824CCC90A1A17251 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */;
+			buildPhases = (
+				B1B4464044462AF72D6705EBC34D3D13 /* Sources */,
+				EC44D53AB714F70ECB3BD1D2A7D8D572 /* Frameworks */,
+				122FC27C326D31787F661D0EB4BB62EA /* Resources */,
+				6E30A7055FD83BCFED3353BC1F732F02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BACCCF480014DDD125DF11834C515C7 /* PBXTargetDependency */,
+			);
+			name = NSStringALEmail;
+			productName = NSStringALEmail;
+			productReference = F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2EBCFBDDE3B355BA9AE890E54397595C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */,
+				9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */,
+				A5F6AEB7A82F07BF4D303E2550AC1A09 /* Pods-NSStringALEmail_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122FC27C326D31787F661D0EB4BB62EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94ED044BA086ABFCFB7FAA460AF2243 /* NSStringALEmail.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2736A6112D2095CADACD863BF8D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB171D2DF6F46D0D0D4394C5E8FB2064 /* json-disposable-emails.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A59A62B491FA749EFC29557E6ABAA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5221C2C98B04916C643BCEA25DBEDB /* Pods-NSStringALEmail_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2CE2D198B840CA680227BB94709FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B4464044462AF72D6705EBC34D3D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32355A6D3343699DAC39469A469DD6 /* NSString+ALEmail.swift in Sources */,
+				D47D27B813BCD9FF0B4C8ED69292E379 /* NSStringALEmail-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BACCCF480014DDD125DF11834C515C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSStringALEmail-NSStringALEmail";
+			target = 9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */;
+			targetProxy = 0385206A1513B0F7CB838CE1C2D0BFE8 /* PBXContainerItemProxy */;
+		};
+		88910F4D63BF845C0BD5F2D6C7F81215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSStringALEmail;
+			target = D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */;
+			targetProxy = 7D15E71013801828E58E0995DB3C7F73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5AA3F45988547E3E26A20EF777D101FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		916B1B6849804AE4437D7860E69360F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		933D3D26F427F787FD573B3D7551D184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5344F75CF4FE4E37B1DB91778226F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSStringALEmail/NSStringALEmail.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6EB05A7C1904C346754B7A86B468887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSStringALEmail/NSStringALEmail.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA0F887C13149CBE469F6F2C44A523B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B090F5DC544AD81AAADED2B9A645535 /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933D3D26F427F787FD573B3D7551D184 /* Debug */,
+				FA0F887C13149CBE469F6F2C44A523B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E149BF9B6D816AE13B94F069B3A63DC0 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916B1B6849804AE4437D7860E69360F9 /* Debug */,
+				5AA3F45988547E3E26A20EF777D101FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D6DB83D71B3153824CCC90A1A17251 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EB05A7C1904C346754B7A86B468887 /* Debug */,
+				B5344F75CF4FE4E37B1DB91778226F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -13,16 +13,16 @@ public class ALEmailValidator {
     
     private class func isValid(email email:String) -> Bool {
         let mailRegex = "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$"
-        let mailPredicate = NSPredicate.init(format: "SELF MATCHES %s",mailRegex)
-        
-        return mailPredicate.evaluateWithObject(email)
+        let mailPredicate = NSPredicate.init(format: "SELF MATCHES %@",mailRegex)
+        let result = mailPredicate.evaluateWithObject(email)
+        return result
     }
     
     private class func buildDisposableList() -> [String] {
         
         let podBundle = NSBundle(forClass: ALEmailValidator.self)
         
-        let bundleURL = podBundle.URLForResource("NSString-ALEmail", withExtension: "bundle")
+        let bundleURL = podBundle.URLForResource("NSStringALEmail", withExtension: "bundle")
         let bundle = NSBundle.init(URL: bundleURL!)!
         
         if let path = bundle.pathForResource("json-disposable-emails", ofType: "txt"){
