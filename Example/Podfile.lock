@@ -1,0 +1,14 @@
+PODS:
+  - NSString-ALEmail (0.1.0)
+
+DEPENDENCIES:
+  - NSString-ALEmail (from `../`)
+
+EXTERNAL SOURCES:
+  NSString-ALEmail:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSString-ALEmail: 35309543486650f7ae070c9fddc73776876754cf
+
+COCOAPODS: 0.39.0

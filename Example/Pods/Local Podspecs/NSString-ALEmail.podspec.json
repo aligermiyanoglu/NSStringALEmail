@@ -1,0 +1,27 @@
+{
+  "name": "NSString-ALEmail",
+  "version": "0.1.0",
+  "summary": "A short description of NSString-ALEmail.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aligermiyanoglu/NSString-ALEmail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aligermiyanoglu": "aligermiyanoglu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aligermiyanoglu/NSString-ALEmail.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSString-ALEmail/Classes/**/*",
+  "resource_bundles": {
+    "NSString-ALEmail": [
+      "NSString-ALEmail/Assets/*.txt"
+    ]
+  }
+}
