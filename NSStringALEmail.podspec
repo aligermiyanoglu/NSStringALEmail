@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'NSStringALEmail'
-s.version          = '0.2.1'
+s.version          = '0.2.2'
 s.summary          = 'NSStringALEmail: A basic regex e-mail validation and disposable email detection extension/category for String/NSString classes.'
 
 # This description is used to generate tags and improve search results.
