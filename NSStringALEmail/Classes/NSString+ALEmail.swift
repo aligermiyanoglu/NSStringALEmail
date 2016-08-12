@@ -38,10 +38,14 @@ public class ALEmailValidator {
         return []
     }
     
+    public class func blacklist() -> [String] {
+        return ALEmailValidator.buildDisposableList()
+    }
+    
     private class func checkDomains(domains:[String], withBlackList list:[String]) -> Bool {
         for item in domains {
             for blackListedItem in list {
-                if item == blackListedItem {
+                if item == blackListedItem.lowercaseString {
                     return true
                 }
             }

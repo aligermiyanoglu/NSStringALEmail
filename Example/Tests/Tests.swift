@@ -14,7 +14,7 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testSample() {
         // This is an example of a functional test case.
         var sampleMail = "ali@gmail.co.uk"
         
@@ -32,6 +32,17 @@ class Tests: XCTestCase {
         
         XCTAssert(sampleMail.isValidEmail() == false, "\(sampleMail) -Valid EMail- Pass")
         XCTAssert(sampleMail.isDisposableEmail() == false, "\(sampleMail) -Not Disposable EMail- Pass")
+    }
+    
+    func testAllDisposables() {
+        let blackList : [String] = ALEmailValidator.blacklist()
+        for item in blackList {
+            let sampleEmail =  "ali@" + item
+            
+            XCTAssert(sampleEmail.isDisposableEmail() == true, "\(sampleEmail) -Valid EMail- Pass")
+        }
+        
+        XCTAssert(true, "Test completed")
     }
     
     func testPerformanceExample() {
