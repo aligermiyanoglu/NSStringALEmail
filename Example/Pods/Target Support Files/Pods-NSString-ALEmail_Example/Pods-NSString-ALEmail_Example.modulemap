@@ -1,6 +1,0 @@
-framework module Pods_NSString_ALEmail_Example {
-  umbrella header "Pods-NSString-ALEmail_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module NSString_ALEmail {
-  umbrella header "NSString-ALEmail-umbrella.h"
-
-  export *
-  module * { export * }
-}

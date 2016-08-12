@@ -1,7 +1,6 @@
 use_frameworks!
-
-target 'NSString-ALEmail_Example' do
-  pod 'NSString-ALEmail', :path => '../'
-
-
+target 'NSStringALEmail_Tests' do
+  pod 'NSStringALEmail', :path => '../'
+  
+  
 end
