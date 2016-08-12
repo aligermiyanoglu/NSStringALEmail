@@ -1,4 +1,4 @@
-# NSString-ALEmail
+# NSStringALEmail
 
 [![CI Status](http://img.shields.io/travis/aligermiyanoglu/NSString-ALEmail.svg?style=flat)](https://travis-ci.org/aligermiyanoglu/NSString-ALEmail)
 [![Version](https://img.shields.io/cocoapods/v/NSString-ALEmail.svg?style=flat)](http://cocoapods.org/pods/NSString-ALEmail)
@@ -14,11 +14,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-NSString-ALEmail is available through [CocoaPods](http://cocoapods.org). To install
+NSStringALEmail is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "NSString-ALEmail"
+pod "NSStringALEmail"
 ```
 ## Installation
 ------------
@@ -26,7 +26,7 @@ pod "NSString-ALEmail"
 - **For iOS 8+ projects with [CocoaPods](https://cocoapods.org):**
 
 ```ruby
-pod 'NSString-ALEmail'
+pod 'NSStringALEmail'
 ```
 
 - **For iOS 8+ projects with [Carthage](https://github.com/Carthage/Carthage):**
@@ -52,4 +52,4 @@ https://github.com/FGRibreau/mailchecker
 
 ## License
 
-NSString-ALEmail is available under the MIT license. See the LICENSE file for more info.
+NSStringALEmail is available under the MIT license. See the LICENSE file for more info.
