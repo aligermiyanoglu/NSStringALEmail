@@ -22,7 +22,7 @@ pod "NSString-ALEmail"
 
 ## Author
 
-aligermiyanoglu, aligermiyanoglu@gmail.com
+aligermiyanoglu, anibal23736@hotmail.com
 
 
 ## Special Thanks to
