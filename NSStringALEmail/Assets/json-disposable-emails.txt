@@ -28,7 +28,6 @@
 "12houremail.com",
 "12minutemail.com",
 "12minutemail.net",
-"139.com",
 "140unichars.com",
 "147.cl",
 "14n.co.uk",
