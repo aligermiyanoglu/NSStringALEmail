@@ -1,34 +1,34 @@
 
-public class ALEmailValidator {
-    private static var disposableMailList : [String] = ALEmailValidator.buildDisposableList()
+open class ALEmailValidator {
+    fileprivate static var disposableMailList : [String] = ALEmailValidator.buildDisposableList()
     
-    private class func domainComponentsAddressFor(email email:String) -> [String] {
-        let components = email.lowercaseString.componentsSeparatedByString("@")
+    fileprivate class func domainComponentsAddressFor(email:String) -> [String] {
+        let components = email.lowercased().components(separatedBy: "@")
         if components.count > 1 {
-            return components[1].componentsSeparatedByString(".").slicedJoinedArray()
+            return components[1].components(separatedBy: ".").slicedJoinedArray()
         }
         
         return []
     }
     
-    private class func isValid(email email:String) -> Bool {
+    fileprivate class func isValid(email:String) -> Bool {
         let mailRegex = "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$"
         let mailPredicate = NSPredicate.init(format: "SELF MATCHES %@",mailRegex)
-        let result = mailPredicate.evaluateWithObject(email)
+        let result = mailPredicate.evaluate(with: email)
         return result
     }
     
-    private class func buildDisposableList() -> [String] {
+    fileprivate class func buildDisposableList() -> [String] {
         
-        let podBundle = NSBundle(forClass: ALEmailValidator.self)
+        let podBundle = Bundle(for: ALEmailValidator.self)
         
-        let bundleURL = podBundle.URLForResource("NSStringALEmail", withExtension: "bundle")
-        let bundle = NSBundle.init(URL: bundleURL!)!
+        let bundleURL = podBundle.url(forResource: "NSStringALEmail", withExtension: "bundle")
+        let bundle = Bundle.init(url: bundleURL!)!
         
-        if let path = bundle.pathForResource("json-disposable-emails", ofType: "txt"){
-            let jsonData = NSData.init(contentsOfFile: path)
+        if let path = bundle.path(forResource: "json-disposable-emails", ofType: "txt"){
+            let jsonData = try? Data.init(contentsOf: URL(fileURLWithPath: path))
             do {
-                let jsonResult = (try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as? [String])!
+                let jsonResult = (try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [String])!
                 return jsonResult
             } catch {
                 print("error: \(error)")
@@ -38,14 +38,14 @@ public class ALEmailValidator {
         return []
     }
     
-    public class func blacklist() -> [String] {
+    open class func blacklist() -> [String] {
         return ALEmailValidator.buildDisposableList()
     }
     
-    private class func checkDomains(domains:[String], withBlackList list:[String]) -> Bool {
+    fileprivate class func checkDomains(_ domains:[String], withBlackList list:[String]) -> Bool {
         for item in domains {
             for blackListedItem in list {
-                if item == blackListedItem.lowercaseString {
+                if item == blackListedItem.lowercased() {
                     return true
                 }
             }
@@ -53,21 +53,21 @@ public class ALEmailValidator {
         return false
     }
     
-    private class func isDisposable(email email:String) -> Bool {
+    fileprivate class func isDisposable(email:String) -> Bool {
         let domains = ALEmailValidator.domainComponentsAddressFor(email: email)
         return checkDomains(domains, withBlackList: disposableMailList)
     }
 }
 
-extension Array where Element : StringLiteralConvertible  {
+extension Array where Element : ExpressibleByStringLiteral  {
     func joinedComponentsArray() -> String {
         var accumulator = ""
         if self.count > 0 {
-            accumulator = String(self[0])
+            accumulator = String(describing: self[0])
         
             if (self.count > 1) {
                 for index in 1...self.count-1 {
-                    accumulator = accumulator + "." + String(self[index])
+                    accumulator = accumulator + "." + String(describing: self[index])
                 }
             }
         }
@@ -78,7 +78,7 @@ extension Array where Element : StringLiteralConvertible  {
     
     func slicedJoinedArray() -> [String] {
         var result:[String] = Array<String>()
-        for (index, _) in self.reverse().enumerate() {
+        for (index, _) in self.reversed().enumerated() {
             let sub = self.subArrayFrom(index: index)
             result.append(sub.joinedComponentsArray())
         }
@@ -88,7 +88,7 @@ extension Array where Element : StringLiteralConvertible  {
 }
 
 extension Array  {
-    func subArrayFrom(index index:Int) -> Array {
+    func subArrayFrom(index:Int) -> Array {
         return Array(self[index..<self.count])
     }
 }
