@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSStringALEmail'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
 s.summary          = 'String extension for email validation'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ DESC
   s.source_files = 'Sources/*.swift'
   
   s.resource_bundles = {
-   'NSStringALEmail' => ['NSStringALEmail/Assets/*.txt']
+   'NSStringALEmail' => ['Resources/*.txt']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
