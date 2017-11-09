@@ -18,20 +18,20 @@ class Tests: XCTestCase {
         // This is an example of a functional test case.
         var sampleMail = "ali@gmail.co.uk"
         
-        XCTAssert(sampleMail.isValidEmail() == true, "\(sampleMail) -Valid EMail- Pass")
-        XCTAssert(sampleMail.isDisposableEmail() == false, "\(sampleMail) -Not Disposable EMail- Pass")
+        XCTAssert(sampleMail.validEmail() == true, "\(sampleMail) -Valid EMail- Pass")
+        XCTAssert(sampleMail.disposableEmail() == false, "\(sampleMail) -Not Disposable EMail- Pass")
         
         
         sampleMail = "ali@10mail.com"
         
-        XCTAssert(sampleMail.isValidEmail() == true, "\(sampleMail) -Valid EMail- Pass")
-        XCTAssert(sampleMail.isDisposableEmail() == true, "\(sampleMail) -Not Disposable EMail- Pass")
+        XCTAssert(sampleMail.validEmail() == true, "\(sampleMail) -Valid EMail- Pass")
+        XCTAssert(sampleMail.disposableEmail() == true, "\(sampleMail) -Not Disposable EMail- Pass")
         
         
         sampleMail = "ali@aaaaa"
         
-        XCTAssert(sampleMail.isValidEmail() == false, "\(sampleMail) -Valid EMail- Pass")
-        XCTAssert(sampleMail.isDisposableEmail() == false, "\(sampleMail) -Not Disposable EMail- Pass")
+        XCTAssert(sampleMail.validEmail() == false, "\(sampleMail) -Valid EMail- Pass")
+        XCTAssert(sampleMail.disposableEmail() == false, "\(sampleMail) -Not Disposable EMail- Pass")
     }
     
     func testAllDisposables() {
@@ -39,7 +39,7 @@ class Tests: XCTestCase {
         for item in blackList {
             let sampleEmail =  "ali@" + item
             
-            XCTAssert(sampleEmail.isDisposableEmail() == true, "\(sampleEmail) -Valid EMail- Pass")
+            XCTAssert(sampleEmail.disposableEmail() == true, "\(sampleEmail) -Valid EMail- Pass")
         }
         
         XCTAssert(true, "Test completed")

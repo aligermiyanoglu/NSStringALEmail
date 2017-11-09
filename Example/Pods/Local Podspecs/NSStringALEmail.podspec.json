@@ -1,8 +1,8 @@
 {
   "name": "NSStringALEmail",
-  "version": "0.2.0",
-  "summary": "NSString-ALEmail: A basic regex e-mail validation and disposable email detection extension/category for String/NSString classes.",
-  "description": "Simple pod which combines following work:\n\nPlease check for disposable list source\nhttps://gist.github.com/michenriksen/8710649\nhttps://github.com/wesbos/burner-email-providers\nhttps://gist.github.com/adamloving/4401361\n\nPlease check for implementation of disposable detection\nhttps://github.com/FGRibreau/mailchecker",
+  "version": "0.4.1",
+  "summary": "String extension for email validation",
+  "description": "A basic regex e-mail validation and disposable email detection extension/category for String/NSString classes.\n\nPlease check for disposable list source\nhttps://gist.github.com/michenriksen/8710649\nhttps://github.com/wesbos/burner-email-providers\nhttps://gist.github.com/adamloving/4401361\n\nPlease check for implementation of disposable detection\nhttps://github.com/FGRibreau/mailchecker",
   "homepage": "https://github.com/aligermiyanoglu/NSStringALEmail",
   "license": {
     "type": "MIT",
@@ -13,15 +13,15 @@
   },
   "source": {
     "git": "https://github.com/aligermiyanoglu/NSStringALEmail.git",
-    "tag": "0.2.0"
+    "tag": "0.4.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NSStringALEmail/Classes/**/*",
+  "source_files": "Sources/*.swift",
   "resource_bundles": {
     "NSStringALEmail": [
-      "NSStringALEmail/Assets/*.txt"
+      "Resources/*.txt"
     ]
   }
 }

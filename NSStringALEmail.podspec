@@ -30,11 +30,9 @@ https://github.com/FGRibreau/mailchecker
 DESC
 
   s.homepage         = 'https://github.com/aligermiyanoglu/NSStringALEmail'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aligermiyanoglu' => 'anibal23736@hotmail.com' }
   s.source           = { :git => 'https://github.com/aligermiyanoglu/NSStringALEmail.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
@@ -43,8 +41,4 @@ DESC
   s.resource_bundles = {
    'NSStringALEmail' => ['Resources/*.txt']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

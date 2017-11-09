@@ -1,6 +1,6 @@
 
 open class ALEmailValidator {
-    fileprivate static var disposableMailList : [String] = ALEmailValidator.buildDisposableList()
+    fileprivate static var disposableMails : [String] = ALEmailValidator.buildDisposableList()
     
     fileprivate class func domainComponentsAddressFor(email:String) -> [String] {
         let components = email.lowercased().components(separatedBy: "@")
@@ -11,7 +11,7 @@ open class ALEmailValidator {
         return []
     }
     
-    fileprivate class func isValid(email:String) -> Bool {
+    fileprivate class func valid(email:String) -> Bool {
         let mailRegex = "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$"
         let mailPredicate = NSPredicate.init(format: "SELF MATCHES %@",mailRegex)
         let result = mailPredicate.evaluate(with: email)
@@ -53,9 +53,9 @@ open class ALEmailValidator {
         return false
     }
     
-    fileprivate class func isDisposable(email:String) -> Bool {
+    fileprivate class func disposable(email:String) -> Bool {
         let domains = ALEmailValidator.domainComponentsAddressFor(email: email)
-        return checkDomains(domains, withBlackList: disposableMailList)
+        return checkDomains(domains, withBlackList: disposableMails)
     }
 }
 
@@ -94,21 +94,21 @@ extension Array  {
 }
 
 public extension String {
-    func isValidEmail() -> Bool {
-        return ALEmailValidator.isValid(email: self)
+    func validEmail() -> Bool {
+        return ALEmailValidator.valid(email: self)
     }
     
-    func isDisposableEmail() -> Bool {
-        return ALEmailValidator.isDisposable(email: self)
+    func disposableEmail() -> Bool {
+        return ALEmailValidator.disposable(email: self)
     }
 }
 
-public extension NSString {
-    func isValidEmail() -> Bool {
-        return ALEmailValidator.isValid(email: (self as String))
+@objc public extension NSString {
+    @objc func validEmail() -> Bool {
+        return ALEmailValidator.valid(email: (self as String))
     }
     
-    func isDisposableEmail() -> Bool {
-        return ALEmailValidator.isDisposable(email: (self as String))
+    @objc func disposableEmail() -> Bool {
+        return ALEmailValidator.disposable(email: (self as String))
     }
 }

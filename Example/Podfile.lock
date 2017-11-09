@@ -1,5 +1,5 @@
 PODS:
-  - NSStringALEmail (0.2.0)
+  - NSStringALEmail (0.4.1)
 
 DEPENDENCIES:
   - NSStringALEmail (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NSStringALEmail: c1f910f9f1d631637382c2a9ea9d2186c320779c
+  NSStringALEmail: 9bb66662956926377559034193cf08460b126bc8
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: e048a102f13c649b4cb449dc4ef1cde367abd819
+
+COCOAPODS: 1.2.0

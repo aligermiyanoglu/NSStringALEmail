@@ -7,125 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A32355A6D3343699DAC39469A469DD6 /* NSString+ALEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */; };
-		356563349A95748B44A9809E2343388E /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81E2FEB6BBAF951B44B04290E1F0DFFD /* NSStringALEmail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E5221C2C98B04916C643BCEA25DBEDB /* Pods-NSStringALEmail_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */; };
-		B94ED044BA086ABFCFB7FAA460AF2243 /* NSStringALEmail.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */; };
-		BB171D2DF6F46D0D0D4394C5E8FB2064 /* json-disposable-emails.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */; };
-		CEAEB5CDCFACC399AB0F6367116DDE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D47D27B813BCD9FF0B4C8ED69292E379 /* NSStringALEmail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */; };
-		F8AFF2DD79DAD41C1FA4AF6F560D3032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0E281AEEAE4CFE76774B076D44C996D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		15DC450A90BE5A0AA0F2995D1EED6F1D /* NSStringALEmail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF70C57EE558916D3046BE5508E366C5 /* NSStringALEmail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C062E948F1B2C4116C3582EE6984D5 /* NSStringALEmail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A811D0DFE46D8ECE5B504F0B75A144AF /* NSStringALEmail-dummy.m */; };
+		4C9CE7F78C60BD9A800F1AD271E0C063 /* json-disposable-emails.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7BE5910412D19260257E5CDCE73192D /* json-disposable-emails.txt */; };
+		617A4BA0C6C201621057F13A33A5E3CD /* Pods-NSStringALEmail_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */; };
+		69BC2F434D3164933E3039D8DD74ADB9 /* NSString+ALEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69413E3C3DE35EED96E79E76FBEA562 /* NSString+ALEmail.swift */; };
+		9DBB84382F435A1669EF0FEA43011A34 /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B586FD99079D53734E01FFB24FEC981B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B83DEB3C759140DF717E2C60A6D69C19 /* NSStringALEmail.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC4AF2D405E88A0EDDDE4443343C00F8 /* NSStringALEmail.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0385206A1513B0F7CB838CE1C2D0BFE8 /* PBXContainerItemProxy */ = {
+		5CFE95521060107169442549B746C7AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9BA86A5DBCB1AC64EA6D25A329EB6B80;
+			remoteGlobalIDString = A12858EFC926D3CCB96FB1123C8AA3DE;
 			remoteInfo = "NSStringALEmail-NSStringALEmail";
 		};
-		7D15E71013801828E58E0995DB3C7F73 /* PBXContainerItemProxy */ = {
+		927560D7ABBE90D806AF1B42505DC12B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D233119C77CE3144285E657DCC75D902;
+			remoteGlobalIDString = 2F56B5BBB4D8938A4D3A0E3051B6218E;
 			remoteInfo = NSStringALEmail;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05BA9115246F1FB4BB1781C01208F958 /* NSStringALEmail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-prefix.pch"; sourceTree = "<group>"; };
-		0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSStringALEmail.xcconfig; sourceTree = "<group>"; };
 		0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSStringALEmail_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSStringALEmail-dummy.m"; sourceTree = "<group>"; };
+		0C0CEF775CC2E0998D10D77720CC1274 /* NSStringALEmail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NSStringALEmail.modulemap; sourceTree = "<group>"; };
 		1339BCCDCCFDAE76A2A0049D89BD6889 /* Pods-NSStringALEmail_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSStringALEmail_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSStringALEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D3109AA0BB8B304123739E9EA92E98E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSStringALEmail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6BFF036F74937E4477F1CB86CC0F22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE58815F61A67FF3D85EC4355FA287C /* NSStringALEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSStringALEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C507D014B5131B84C186C6633A20F5D /* NSStringALEmail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-prefix.pch"; sourceTree = "<group>"; };
 		8CA8F0A9CD49987F34D406AA4E978247 /* Pods-NSStringALEmail_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSStringALEmail_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "json-disposable-emails.txt"; sourceTree = "<group>"; };
-		B4027E1BFCD4C667A9B045B2B007EF1F /* NSStringALEmail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NSStringALEmail.modulemap; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B570BF4329D511E7F4CECC498AEBE3 /* ResourceBundle-NSStringALEmail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NSStringALEmail-Info.plist"; sourceTree = "<group>"; };
+		A811D0DFE46D8ECE5B504F0B75A144AF /* NSStringALEmail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSStringALEmail-dummy.m"; sourceTree = "<group>"; };
+		B69413E3C3DE35EED96E79E76FBEA562 /* NSString+ALEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSString+ALEmail.swift"; sourceTree = "<group>"; };
+		BC4AF2D405E88A0EDDDE4443343C00F8 /* NSStringALEmail.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSStringALEmail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7CAC76077D47C1BE40753935619520 /* Pods-NSStringALEmail_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSStringALEmail_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7BE5910412D19260257E5CDCE73192D /* json-disposable-emails.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "json-disposable-emails.txt"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3D0F5BB83094D54C438CD646084ECC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSString+ALEmail.swift"; sourceTree = "<group>"; };
 		ED75CB46399770FF2EFF1CB93B77623C /* Pods-NSStringALEmail_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSStringALEmail_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF70C57EE558916D3046BE5508E366C5 /* NSStringALEmail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-umbrella.h"; sourceTree = "<group>"; };
 		F08EB65B8AF87561BBB690783DF9AA04 /* Pods-NSStringALEmail_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NSStringALEmail_Tests.modulemap"; sourceTree = "<group>"; };
 		F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSStringALEmail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSStringALEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C8BF3E5E615E1370CE5BB4FF4D5510 /* Pods-NSStringALEmail_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSStringALEmail_Tests-resources.sh"; sourceTree = "<group>"; };
 		F8F22815F11D54F8400CFD0BAE1236AE /* Pods-NSStringALEmail_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSStringALEmail_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSStringALEmail-umbrella.h"; sourceTree = "<group>"; };
+		FB43C0C77FB1F71EA4AF0CC1388BBF54 /* Pods_NSStringALEmail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSStringALEmail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSStringALEmail.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A5C20E1E2AF56E4D645F841AF5F2519 /* Frameworks */ = {
+		30A10DEC829AD6E4575478A11B908A27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAEB5CDCFACC399AB0F6367116DDE3B /* Foundation.framework in Frameworks */,
+				0E281AEEAE4CFE76774B076D44C996D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1ACD37585F52DA444D031EE09C72E81 /* Frameworks */ = {
+		70715259EBC2E2895B192F4953286DC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B586FD99079D53734E01FFB24FEC981B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC44D53AB714F70ECB3BD1D2A7D8D572 /* Frameworks */ = {
+		CE2AB70DE906A79264BF2971D050D8DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AFF2DD79DAD41C1FA4AF6F560D3032 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28F144B566EC1BA5E7CA366FE7CDA397 /* Classes */ = {
+		111170EF664319DBEA6D2C4D0D112559 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DA8716927327D78E25DCBBB17524259C /* NSString+ALEmail.swift */,
+				C7BE5910412D19260257E5CDCE73192D /* json-disposable-emails.txt */,
 			);
-			path = Classes;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		2EBCFBDDE3B355BA9AE890E54397595C /* Products */ = {
+		13A14E28CD47226E552508309358CD33 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */,
-				F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */,
-				3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */,
+				B69413E3C3DE35EED96E79E76FBEA562 /* NSString+ALEmail.swift */,
 			);
-			name = Products;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		30776464D9C813C0979C83C8C4BDFD90 /* Support Files */ = {
+		14CC488D77F220E78723E3D7F7225719 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D3109AA0BB8B304123739E9EA92E98E /* Info.plist */,
-				B4027E1BFCD4C667A9B045B2B007EF1F /* NSStringALEmail.modulemap */,
-				0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */,
-				0B8F31334BF1890C265600DDD5B10C52 /* NSStringALEmail-dummy.m */,
-				05BA9115246F1FB4BB1781C01208F958 /* NSStringALEmail-prefix.pch */,
-				F9EB9E0BD9552065A2D9D7FA0FB8828B /* NSStringALEmail-umbrella.h */,
+				111170EF664319DBEA6D2C4D0D112559 /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NSStringALEmail";
-			sourceTree = "<group>";
-		};
-		3B549CEEC0CFABB31CBBBE85B67BBE90 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				93D82F01D49D686677545E092FE29CB0 /* json-disposable-emails.txt */,
-			);
-			path = Assets;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		436AEA3910B6D16386A53E2E1E2D39EE /* Pods-NSStringALEmail_Tests */ = {
@@ -146,63 +131,50 @@
 			path = "Target Support Files/Pods-NSStringALEmail_Tests";
 			sourceTree = "<group>";
 		};
-		774B5C8910EABFF9523502933A67E927 /* Resources */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B5BD9DDDDEF9BDB09BA6161F9AE636C8 /* NSStringALEmail */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = Resources;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C5FFDA325824A2CAF1A26EF251E675FB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2EBCFBDDE3B355BA9AE890E54397595C /* Products */,
+				DE8D842C4396378E8456F7D8D0378813 /* Products */,
 				D5007FEE57B4C5522649F44F18F93EEE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B5BD9DDDDEF9BDB09BA6161F9AE636C8 /* NSStringALEmail */ = {
+		B792C460E7174E5810FCDF085F48776E /* NSStringALEmail */ = {
 			isa = PBXGroup;
 			children = (
-				3B549CEEC0CFABB31CBBBE85B67BBE90 /* Assets */,
+				14CC488D77F220E78723E3D7F7225719 /* Resources */,
+				13A14E28CD47226E552508309358CD33 /* Sources */,
+				E5B86EDDFEF8797FABFED4CFB32F91F4 /* Support Files */,
 			);
-			path = NSStringALEmail;
+			name = NSStringALEmail;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C5FFDA325824A2CAF1A26EF251E675FB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3953CF6EA511E91266943649F4FB57C /* NSStringALEmail */,
+				B792C460E7174E5810FCDF085F48776E /* NSStringALEmail */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D41A6C1A83E0DA51DBBB117CB9C4F4A4 /* NSStringALEmail */ = {
-			isa = PBXGroup;
-			children = (
-				28F144B566EC1BA5E7CA366FE7CDA397 /* Classes */,
-			);
-			path = NSStringALEmail;
 			sourceTree = "<group>";
 		};
 		D5007FEE57B4C5522649F44F18F93EEE /* Targets Support Files */ = {
@@ -213,46 +185,79 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E3953CF6EA511E91266943649F4FB57C /* NSStringALEmail */ = {
+		DE8D842C4396378E8456F7D8D0378813 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D41A6C1A83E0DA51DBBB117CB9C4F4A4 /* NSStringALEmail */,
-				774B5C8910EABFF9523502933A67E927 /* Resources */,
-				30776464D9C813C0979C83C8C4BDFD90 /* Support Files */,
+				BC4AF2D405E88A0EDDDE4443343C00F8 /* NSStringALEmail.bundle */,
+				2FE58815F61A67FF3D85EC4355FA287C /* NSStringALEmail.framework */,
+				FB43C0C77FB1F71EA4AF0CC1388BBF54 /* Pods_NSStringALEmail_Tests.framework */,
 			);
-			name = NSStringALEmail;
-			path = ../..;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B86EDDFEF8797FABFED4CFB32F91F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BFF036F74937E4477F1CB86CC0F22 /* Info.plist */,
+				0C0CEF775CC2E0998D10D77720CC1274 /* NSStringALEmail.modulemap */,
+				FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */,
+				A811D0DFE46D8ECE5B504F0B75A144AF /* NSStringALEmail-dummy.m */,
+				3C507D014B5131B84C186C6633A20F5D /* NSStringALEmail-prefix.pch */,
+				EF70C57EE558916D3046BE5508E366C5 /* NSStringALEmail-umbrella.h */,
+				95B570BF4329D511E7F4CECC498AEBE3 /* ResourceBundle-NSStringALEmail-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSStringALEmail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53FBE36029B9A640AC9194F0DC8E3C27 /* Headers */ = {
+		A860E00C57DE0653E34D6F1B5F20AC06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356563349A95748B44A9809E2343388E /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */,
+				15DC450A90BE5A0AA0F2995D1EED6F1D /* NSStringALEmail-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E30A7055FD83BCFED3353BC1F732F02 /* Headers */ = {
+		D1227B126DB72D423E738987B85E139A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E2FEB6BBAF951B44B04290E1F0DFFD /* NSStringALEmail-umbrella.h in Headers */,
+				9DBB84382F435A1669EF0FEA43011A34 /* Pods-NSStringALEmail_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */ = {
+		2F56B5BBB4D8938A4D3A0E3051B6218E /* NSStringALEmail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E149BF9B6D816AE13B94F069B3A63DC0 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */;
+			buildConfigurationList = 848F74FD1A7682A22996BFE228648FF0 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */;
 			buildPhases = (
-				9F2CE2D198B840CA680227BB94709FE9 /* Sources */,
-				D1ACD37585F52DA444D031EE09C72E81 /* Frameworks */,
-				4F2736A6112D2095CADACD863BF8D1DA /* Resources */,
+				3B2E793432D79DED038394CD16ADD1A4 /* Sources */,
+				30A10DEC829AD6E4575478A11B908A27 /* Frameworks */,
+				388AD654AFF7DB2A0536A2A98AE965E7 /* Resources */,
+				A860E00C57DE0653E34D6F1B5F20AC06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D434AA8847B0A96D5C5E4B6DA4A9AF6C /* PBXTargetDependency */,
+			);
+			name = NSStringALEmail;
+			productName = NSStringALEmail;
+			productReference = 2FE58815F61A67FF3D85EC4355FA287C /* NSStringALEmail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A12858EFC926D3CCB96FB1123C8AA3DE /* NSStringALEmail-NSStringALEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACFA967BD6DB5107F3A3E7916434202 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */;
+			buildPhases = (
+				D0D25508E7949D36696FA4654F8207A3 /* Sources */,
+				CE2AB70DE906A79264BF2971D050D8DC /* Frameworks */,
+				CFD0BDFE4242AA62B9621BDF47E34070 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -260,44 +265,25 @@
 			);
 			name = "NSStringALEmail-NSStringALEmail";
 			productName = "NSStringALEmail-NSStringALEmail";
-			productReference = 1D4372349F93A3645BD7A5C8B3255472 /* NSStringALEmail.bundle */;
+			productReference = BC4AF2D405E88A0EDDDE4443343C00F8 /* NSStringALEmail.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A5F6AEB7A82F07BF4D303E2550AC1A09 /* Pods-NSStringALEmail_Tests */ = {
+		C2529796A9F81FA9AABFA5B73A26A594 /* Pods-NSStringALEmail_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B090F5DC544AD81AAADED2B9A645535 /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */;
+			buildConfigurationList = EE24AFE4D1C79DF6D5D94E89420B660D /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */;
 			buildPhases = (
-				5A59A62B491FA749EFC29557E6ABAA9E /* Sources */,
-				4A5C20E1E2AF56E4D645F841AF5F2519 /* Frameworks */,
-				53FBE36029B9A640AC9194F0DC8E3C27 /* Headers */,
+				826371726BF19711403F6F35E958BE59 /* Sources */,
+				70715259EBC2E2895B192F4953286DC9 /* Frameworks */,
+				D1227B126DB72D423E738987B85E139A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88910F4D63BF845C0BD5F2D6C7F81215 /* PBXTargetDependency */,
+				CCCA29A6B4A8D9358D51E2A356B7BAAE /* PBXTargetDependency */,
 			);
 			name = "Pods-NSStringALEmail_Tests";
 			productName = "Pods-NSStringALEmail_Tests";
-			productReference = 3EF59AA2A7490ABF2B3B8610BC1D2044 /* Pods_NSStringALEmail_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3D6DB83D71B3153824CCC90A1A17251 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */;
-			buildPhases = (
-				B1B4464044462AF72D6705EBC34D3D13 /* Sources */,
-				EC44D53AB714F70ECB3BD1D2A7D8D572 /* Frameworks */,
-				122FC27C326D31787F661D0EB4BB62EA /* Resources */,
-				6E30A7055FD83BCFED3353BC1F732F02 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2BACCCF480014DDD125DF11834C515C7 /* PBXTargetDependency */,
-			);
-			name = NSStringALEmail;
-			productName = NSStringALEmail;
-			productReference = F61471D079A2834A0994162406D12BE0 /* NSStringALEmail.framework */;
+			productReference = FB43C0C77FB1F71EA4AF0CC1388BBF54 /* Pods_NSStringALEmail_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -306,21 +292,11 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
-					9BA86A5DBCB1AC64EA6D25A329EB6B80 = {
-						DevelopmentTeam = ZTRHHTTEX2;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
-					};
-					A5F6AEB7A82F07BF4D303E2550AC1A09 = {
-						DevelopmentTeam = ZTRHHTTEX2;
-						LastSwiftMigration = 0800;
-					};
-					D233119C77CE3144285E657DCC75D902 = {
-						DevelopmentTeam = ZTRHHTTEX2;
-						LastSwiftMigration = 0800;
+					2F56B5BBB4D8938A4D3A0E3051B6218E = {
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -332,104 +308,186 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2EBCFBDDE3B355BA9AE890E54397595C /* Products */;
+			productRefGroup = DE8D842C4396378E8456F7D8D0378813 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */,
-				9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */,
-				A5F6AEB7A82F07BF4D303E2550AC1A09 /* Pods-NSStringALEmail_Tests */,
+				2F56B5BBB4D8938A4D3A0E3051B6218E /* NSStringALEmail */,
+				A12858EFC926D3CCB96FB1123C8AA3DE /* NSStringALEmail-NSStringALEmail */,
+				C2529796A9F81FA9AABFA5B73A26A594 /* Pods-NSStringALEmail_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		122FC27C326D31787F661D0EB4BB62EA /* Resources */ = {
+		388AD654AFF7DB2A0536A2A98AE965E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94ED044BA086ABFCFB7FAA460AF2243 /* NSStringALEmail.bundle in Resources */,
+				B83DEB3C759140DF717E2C60A6D69C19 /* NSStringALEmail.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F2736A6112D2095CADACD863BF8D1DA /* Resources */ = {
+		CFD0BDFE4242AA62B9621BDF47E34070 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB171D2DF6F46D0D0D4394C5E8FB2064 /* json-disposable-emails.txt in Resources */,
+				4C9CE7F78C60BD9A800F1AD271E0C063 /* json-disposable-emails.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A59A62B491FA749EFC29557E6ABAA9E /* Sources */ = {
+		3B2E793432D79DED038394CD16ADD1A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5221C2C98B04916C643BCEA25DBEDB /* Pods-NSStringALEmail_Tests-dummy.m in Sources */,
+				69BC2F434D3164933E3039D8DD74ADB9 /* NSString+ALEmail.swift in Sources */,
+				23C062E948F1B2C4116C3582EE6984D5 /* NSStringALEmail-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F2CE2D198B840CA680227BB94709FE9 /* Sources */ = {
+		826371726BF19711403F6F35E958BE59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617A4BA0C6C201621057F13A33A5E3CD /* Pods-NSStringALEmail_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1B4464044462AF72D6705EBC34D3D13 /* Sources */ = {
+		D0D25508E7949D36696FA4654F8207A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A32355A6D3343699DAC39469A469DD6 /* NSString+ALEmail.swift in Sources */,
-				D47D27B813BCD9FF0B4C8ED69292E379 /* NSStringALEmail-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BACCCF480014DDD125DF11834C515C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSStringALEmail-NSStringALEmail";
-			target = 9BA86A5DBCB1AC64EA6D25A329EB6B80 /* NSStringALEmail-NSStringALEmail */;
-			targetProxy = 0385206A1513B0F7CB838CE1C2D0BFE8 /* PBXContainerItemProxy */;
-		};
-		88910F4D63BF845C0BD5F2D6C7F81215 /* PBXTargetDependency */ = {
+		CCCA29A6B4A8D9358D51E2A356B7BAAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NSStringALEmail;
-			target = D233119C77CE3144285E657DCC75D902 /* NSStringALEmail */;
-			targetProxy = 7D15E71013801828E58E0995DB3C7F73 /* PBXContainerItemProxy */;
+			target = 2F56B5BBB4D8938A4D3A0E3051B6218E /* NSStringALEmail */;
+			targetProxy = 927560D7ABBE90D806AF1B42505DC12B /* PBXContainerItemProxy */;
+		};
+		D434AA8847B0A96D5C5E4B6DA4A9AF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSStringALEmail-NSStringALEmail";
+			target = A12858EFC926D3CCB96FB1123C8AA3DE /* NSStringALEmail-NSStringALEmail */;
+			targetProxy = 5CFE95521060107169442549B746C7AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		1CE2FCC033F3E8BD4C834E581DF4038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B63E9E6C72DCFD869A2BFE675012340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -437,6 +495,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
@@ -444,25 +503,33 @@
 			};
 			name = Release;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -471,6 +538,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -483,167 +551,107 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5AA3F45988547E3E26A20EF777D101FC /* Release */ = {
+		9FEEE70986055092EDF30998C2446793 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
+			baseConfigurationReference = FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NSStringALEmail;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		916B1B6849804AE4437D7860E69360F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NSStringALEmail;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		933D3D26F427F787FD573B3D7551D184 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5C85518744D21FFC4B7F5A078394C8A /* Pods-NSStringALEmail_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5344F75CF4FE4E37B1DB91778226F02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSStringALEmail/NSStringALEmail.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = NSStringALEmail;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B6EB05A7C1904C346754B7A86B468887 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0677B5A49C1D07684237F48658A8E88F /* NSStringALEmail.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NSStringALEmail/NSStringALEmail.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = NSStringALEmail;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FA0F887C13149CBE469F6F2C44A523B7 /* Release */ = {
+		B0B3DB78C36076FA4A29D8A58202D2C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0860014FDEF41AFA51F6DA806F85D06E /* Pods-NSStringALEmail_Tests.release.xcconfig */;
+			baseConfigurationReference = FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSStringALEmail";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/ResourceBundle-NSStringALEmail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D0E2C357F49151D3694C290A2E141A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NSStringALEmail";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/ResourceBundle-NSStringALEmail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NSStringALEmail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EC72340D716A8BE59A0B2AB82A1F9BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2A8AB2321DD9DB85B490C8010042FE /* NSStringALEmail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZTRHHTTEX2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSStringALEmail/NSStringALEmail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSStringALEmail/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSStringALEmail_Tests/Pods-NSStringALEmail_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NSStringALEmail/NSStringALEmail.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NSStringALEmail_Tests;
+				PRODUCT_NAME = NSStringALEmail;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -653,38 +661,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0ACFA967BD6DB5107F3A3E7916434202 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B3DB78C36076FA4A29D8A58202D2C9 /* Debug */,
+				D0E2C357F49151D3694C290A2E141A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B090F5DC544AD81AAADED2B9A645535 /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */ = {
+		848F74FD1A7682A22996BFE228648FF0 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				933D3D26F427F787FD573B3D7551D184 /* Debug */,
-				FA0F887C13149CBE469F6F2C44A523B7 /* Release */,
+				9FEEE70986055092EDF30998C2446793 /* Debug */,
+				EC72340D716A8BE59A0B2AB82A1F9BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E149BF9B6D816AE13B94F069B3A63DC0 /* Build configuration list for PBXNativeTarget "NSStringALEmail-NSStringALEmail" */ = {
+		EE24AFE4D1C79DF6D5D94E89420B660D /* Build configuration list for PBXNativeTarget "Pods-NSStringALEmail_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916B1B6849804AE4437D7860E69360F9 /* Debug */,
-				5AA3F45988547E3E26A20EF777D101FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3D6DB83D71B3153824CCC90A1A17251 /* Build configuration list for PBXNativeTarget "NSStringALEmail" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6EB05A7C1904C346754B7A86B468887 /* Debug */,
-				B5344F75CF4FE4E37B1DB91778226F02 /* Release */,
+				1CE2FCC033F3E8BD4C834E581DF4038D /* Debug */,
+				4B63E9E6C72DCFD869A2BFE675012340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
