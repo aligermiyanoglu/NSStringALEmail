@@ -1,5 +1,5 @@
 
-open class ALEmailValidator {
+public class ALEmailValidator {
     fileprivate static var disposableMails : [String] = ALEmailValidator.buildDisposableList()
     
     fileprivate class func domainComponentsAddressFor(email:String) -> [String] {
