@@ -38,7 +38,7 @@ public class ALEmailValidator {
         return []
     }
     
-    open class func blacklist() -> [String] {
+    public class func blacklist() -> [String] {
         return ALEmailValidator.buildDisposableList()
     }
     
@@ -59,8 +59,8 @@ public class ALEmailValidator {
     }
 }
 
-extension Array where Element : ExpressibleByStringLiteral  {
-    func joinedComponentsArray() -> String {
+fileprivate extension Array where Element : ExpressibleByStringLiteral  {
+    fileprivate func joinedComponentsArray() -> String {
         var accumulator = ""
         if self.count > 0 {
             accumulator = String(describing: self[0])
@@ -76,7 +76,7 @@ extension Array where Element : ExpressibleByStringLiteral  {
         return accumulator
     }
     
-    func slicedJoinedArray() -> [String] {
+    fileprivate func slicedJoinedArray() -> [String] {
         var result:[String] = Array<String>()
         for (index, _) in self.reversed().enumerated() {
             let sub = self.subArrayFrom(index: index)
@@ -87,18 +87,18 @@ extension Array where Element : ExpressibleByStringLiteral  {
     }
 }
 
-extension Array  {
-    func subArrayFrom(index:Int) -> Array {
+fileprivate extension Array  {
+    fileprivate func subArrayFrom(index:Int) -> Array {
         return Array(self[index..<self.count])
     }
 }
 
 public extension String {
-    func validEmail() -> Bool {
+    public func validEmail() -> Bool {
         return ALEmailValidator.valid(email: self)
     }
     
-    func disposableEmail() -> Bool {
+    public func disposableEmail() -> Bool {
         return ALEmailValidator.disposable(email: self)
     }
 }
